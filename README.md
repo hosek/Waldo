@@ -16,7 +16,7 @@ adb pull /data/app/~~iZYB7PUXWPonjfSJuF3xVg==/com.ideashower.readitlater.pro-SAR
 
 ## Decompile akp
 ```
-
+ apktool d base.apk
 ```
 
 ### Search for proper location
@@ -78,3 +78,4 @@ adb logcat
 ```
 
 Run the app and skip the registration screen (sorry about it)
+<img width="943" alt="Screenshot 2025-03-10 at 11 04 26" src="https://github.com/user-attachments/assets/0811999c-ac74-4765-a64d-036a59bf8b1c" />
