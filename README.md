@@ -23,7 +23,8 @@ adb pull /data/app/~~iZYB7PUXWPonjfSJuF3xVg==/com.ideashower.readitlater.pro-SAR
 
 I used VSC and found smali_classes2/com/pocket/app/MainActivity.smali 
 What later on turns out to be bad choice - I havent run the applikaction after installing, so I overlooked that there is registration screen and expected Main Activity as ideal place where to start, I would go with Application class now.
-**This cause that you have to skip registration first to see the logcat :/ **
+
+*This cause that you have to skip registration first to see the logcat :/*
 
 Then I could use jadex to try to see the code and match it with smali files, but haven't it on my machine and installion takes ages so for this easy change I went with direct smali edit
 
